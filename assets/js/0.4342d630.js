@@ -1496,7 +1496,7 @@ function resolveSidebarItems(page, regularPath, site, localePath) {
   } else {
     var newSidebarConfig = sidebarConfig.concat(recentNode).concat(tags);
 
-    var _resolveMatchingConfi = resolveMatchingConfig(regularPath, newSidebarConfig),
+    var _resolveMatchingConfi = resolveMatchingConfig(regularPath, sidebarConfig),
         base = _resolveMatchingConfi.base,
         config = _resolveMatchingConfi.config;
 
@@ -3470,4 +3470,4 @@ var staticRenderFns = []
 /***/ })
 
 }]);
-//# sourceMappingURL=0.8b9992a9.js.map
+//# sourceMappingURL=0.4342d630.js.map
