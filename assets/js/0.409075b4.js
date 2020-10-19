@@ -1506,7 +1506,7 @@ function resolveSidebarItems(page, regularPath, site, localePath) {
     }
 
     var newconfig = config.concat(recentNode).concat(tags);
-    return config ? config.map(function (item) {
+    return newconfig ? newconfig.map(function (item) {
       return resolveItem(item, pages, base);
     }) : [];
   }
@@ -3472,4 +3472,4 @@ var staticRenderFns = []
 /***/ })
 
 }]);
-//# sourceMappingURL=0.2081991f.js.map
+//# sourceMappingURL=0.409075b4.js.map
